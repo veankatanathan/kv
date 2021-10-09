@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	System.setProperty("webdriver.chrome.driver", "F:\\Users\\admin\\eclipse-workspace\\Selenium\\Driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.get("https://www.redbus.in/");
-	driver.close();
+  driver.close();
 	
 }
 }
